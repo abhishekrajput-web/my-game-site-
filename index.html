@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- MAIN CSS STYLE.CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>my game site!</title>
+</head>
+
+<body>
+
+    <!-- PRELOADER  -->
+    <div class="preloader">
+        <img src="img/loader/Walk.gif" alt="loader-gif">
+    </div>
+
+    <!-- HEADER OR NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand new-font" href="#">GameForYou</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sponsors">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Game-Caegories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item border-bottom p-2 fs-5" href="games files/action.html">Action</a></li>
+                                <li>
+                                    <a class="dropdown-item border-bottom p-2 fs-5" href="games files/adventure.html">Adventure</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item border-bottom p-2 fs-5" href="games files/story.html">Story</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item border-bottom p-2 fs-5" href="games files/fighting.html">Fighting</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" id="night-mode">
+                            <a class="nav-link"><i class="fas fa-eye"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HOME -->
+        <section id="home">
+            <button id="myBtn" title="Go to top" class="px-4"><i class="fas fa-arrow-up"></i></button>
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner pt-5">
+                    <div class="carousel-item active">
+                        <img src="img/banner img/banner1.jpg" class="d-block w-100" alt="banner-img">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h5>ADVENTURES GAMES</h5>
+                            <p>play watch and buy the popular games.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner img/banner2.jpg" class="d-block w-100" alt="banner-img">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h5>ACTION GAMES</h5>
+                            <p>play watch and buy the popular games.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner img/banner3.jpg" class="d-block w-100" alt="banner-img">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h5>FIGHTING GAMES</h5>
+                            <p>play watch and buy the popular games.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="p-5" id="about">
+        <div class="container">
+            <h2 class="text-center fw-bold display-5 mb-5 border-bottom">ABOUT US</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores voluptatibus quibusdam iste fugiat et excepturi quis cum aperiam, ab, adipisci iusto aliquam reprehenderit. Temporibus, eius rerum beatae aliquid modi quas id
+                        iure consectetur earum!</p>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Explore More</button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body new-font">
+                            <img src="https://wallpapercave.com/wp/wp6430633.jpg" alt="" class="img-fluid w-100 mb-5 rounded-3">
+                            <h3 class="mb-2 text-secondary">Address And Contact Details</h3>
+                            <ul>
+                                <li class="text-success">+xx 7911921922</li>
+                                <li class="text-success">123@gmail.com</li>
+                                <li class="text-success">Ameica New Jursey House Number 34</li>
+                            </ul>
+                            <iframe class="img-fluid w-100" src="https://www.youtube.com/embed/xsKHweFi7AU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-3" src="https://wallpapercave.com/wp/wp2936648.jpg" alt="about-img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- GAMES -->
+    <section id="games" class="text-center text-white ">
+        <div class="container">
+            <h2 class="fw-bold display-5 mb-5 border-bottom">GET THE GAME</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-dark">
+                        <img class="img-fluid rounded-3" src="https://wallpapercave.com/wp/wp2278210.jpg" alt="games-img">
+                        <h3 class="mb-1">need for speed</h3>
+                        <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button type="button" class="btn btn-outline-success">BUY THE GAME</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-dark">
+                        <img class="img-fluid rounded-3" src="https://wallpapercave.com/wp/wp7972084.jpg" alt="games-img">
+                        <h3 class=" mb-1">watch dogs</h3>
+                        <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button type="button" class="btn btn-outline-success">BUY THE GAME</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-dark">
+                        <img class="img-fluid rounded-3" src="https://wallpapercave.com/wp/wp4990554.jpg" alt="games-img">
+                        <h3 class=" mb-1">gta v</h3>
+                        <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button type="button" class="btn btn-outline-success">BUY THE GAME</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-dark">
+                        <img class="img-fluid rounded-3" src="https://wallpapercave.com/wp/wp9490908.jpg" alt="games-img">
+                        <h3 class=" mb-1">call of duty</h3>
+                        <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button type="button" class="btn btn-outline-success">BUY THE GAME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPONSORS -->
+    <section id="sponsors" class="p-5 text-center">
+        <div class="container bg">
+            <h2 class="fw-bold display-5 mb-5 border-bottom">OUR SPONSORS</h2>
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <img src="img/sponsor img/sponsor (1).png" alt="sponsor-img" class="img-fluid w-25">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <img src="img/sponsor img/sponsor (2).png" alt="sponsor-img" class="img-fluid w-25">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <img src="img/sponsor img/sponsor (3).png" alt="sponsor-img" class="img-fluid w-25 bg-warning">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <img src="img/sponsor img/sponsor (4).png" alt="sponsor-img" class="img-fluid w-25">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="p-5 text-center">
+        <h2 class="fw-bold display-5 mb-5 border-bottom">FREQUENTLY ASKED QUESTIONS</h2>
+        <div class="container" id="faq">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Where Are You Located ?
+                            </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, at?.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Which Type Of Games Are You Made ?
+                            </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, veritatis!.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What Is The Price Of The Games ?
+                            </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, illum..</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            How To Buy A Game ?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, at?.</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="p-5 text-center">
+        <h2 class="fw-bold display-5 mb-5 border-bottom">CONTACT US</h2>
+        <div class="container">
+            <form action="#">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required>
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Phone Number" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                    <span class="input-group-text" id="basic-addon2"><i class="fas fa-phone"></i></span>
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon3"><i class="fas fa-box"></i></span>
+                    <input type="text" class="form-control" placeholder="Your Favaorite Game" id="basic-url" aria-describedby="basic-addon3" required>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="fas fa-message"></i></span>
+                    <textarea rows="10" class=" form-control " placeholder="Any Message Or Suggestion " aria-label="With textarea "></textarea required>
+                </div>
+                <button class="btn btn-outline-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="p-5 text-center">
+        <h2 class="fw-bold display-5 mb-5 border-bottom">PEOPLE REVIEWS</h2>
+        <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://randomuser.me/api/portraits/men/44.jpg" class="rounded-3 mb-2 w-25 img-fluid" alt="review-people-img">
+                <h3 class="text-dark">mike tavis</h3>
+                <p class="lead text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam neque exercitationem possimus !</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-3 mb-2 w-25 img-fluid" alt="review-people-img">
+                <h3 class="text-dark">arthro gonzalvis</h3>
+                <p class="lead text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam neque exercitationem possimus !</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://randomuser.me/api/portraits/women/37.jpg" class="rounded-3 mb-2 w-25 img-fluid" alt="review-people-img">
+                <h3 class="text-dark">tokyo ronal</h3>
+                <p class="lead text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam neque exercitationem possimus !</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://randomuser.me/api/portraits/men/9.jpg" class="rounded-3 mb-2 w-25 img-fluid" alt="review-people-img">
+                <h3 class="text-dark">maveric rocks</h3>
+                <p class="lead text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam neque exercitationem possimus !</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://randomuser.me/api/portraits/women/5.jpg" class="rounded-3 mb-2 w-25 img-fluid" alt="review-people-img">
+                <h3 class="text-dark">berlin river</h3>
+                <p class="lead text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam neque exercitationem possimus!</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://randomuser.me/api/portraits/women/78.jpg" class="rounded-3 mb-2 w-25 img-fluid" alt="review-people-img">
+                <h3 class="text-dark">Becky Roll</h3>
+                <p class="lead text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam neque exercitationem possimus!</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon text-warning" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon text-warning" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer " class="bg-dark text-white overflow-hidden ">
+        <div class="row g-3">
+            <div class="col-md-6 col-lg-3 ">
+                <h4>About Us</h4>
+                <p class="fs-6 text-danger ">GameForYou Is a Game Website Where You Can Play Free Games And Buy Premium Games. Also Have Conncetion With Other Gaming Companies</p>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <h4>Services</h4>
+            <ul class="list-unstyled">
+                <a href="#">
+                    <li>People Can Download Free Games...</li>
+                </a>
+                <a href="#">
+                    <li>People Can Buy Premium Games...</li>
+                </a>
+                <a href="#">
+                    <li>People Can Play Online Game In Website...</li>
+                </a>
+            </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <h4>Our newsletter</h4>
+                <p>Sign Up Our Newsletter To Get More Interesting News</p>
+                <input type="text " class="form-control rounded-3 " placeholder="123@gmail.com ">
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <h4>Popular Games</h4>
+                <img src="https://wallpapercave.com/wp/wp2127220.jpg" alt="game-img" class="img-fluid w-25 m-1 ">
+                <img src="https://wallpapercave.com/dwp1x/wp9506203.jpg" alt="game-img" class="img-fluid w-25 m-1 ">
+                <img src="https://wallpapercave.com/wp/wp10535971.jpg" alt="game-img" class="img-fluid w-25 m-1 ">
+                <img src="https://wallpapercave.com/wp/wp10535977.jpg " alt="game-img" class="img-fluid w-25 m-1 ">
+                <img src="https://wallpapercave.com/wp/wp10536006.jpg" alt="game-img" class="img-fluid w-25 m-1 ">
+                <img src="https://wallpapercave.com/wp/wp2215738.jpg" alt="game-img" class="img-fluid w-25 m-1">
+            </div>
+        </div>
+        <p class="text-center text-secondary ">copyright <span class="text-white ">©️</span> GameForYou 2022</p>
+    </footer>
+
+    <!-- BOOTSRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    
+    <!-- MAIN JS -->
+    <script src="js/index.js "></script>
+</body>
+
+</html>
