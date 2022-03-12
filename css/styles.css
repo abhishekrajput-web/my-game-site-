@@ -27,6 +27,12 @@ h2 {
     font-size: 2rem;
 }
 
+/* UTILITIES CLASSES */
+
+.margin-top{
+    margin-top: 5.1rem;
+}
+
 
 /* ONSCROLL TOP BUTTON */
 
