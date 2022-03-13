@@ -18,7 +18,6 @@
 <img style="margin-top:20px" src="website pics/website7.jpeg">
 <img style="margin-top:20px" src="website pics/website6.jpeg">
 <img style="margin-top:20px" src="website pics/website5.jpeg">
-<img style="margin-top:20px" src="website pics/website4.jpeg">
 <img style="margin-top:20px" src="website pics/website3.jpeg">
 <img style="margin-top:20px" src="website pics/website2.jpeg">
 <img style="margin-top:20px" src="website pics/website10.jpeg">
